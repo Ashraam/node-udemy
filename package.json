@@ -1,0 +1,41 @@
+{
+  "name": "node-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "DEBUG=app:dev nodemon index.js",
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "config": "^1.31.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "express-async-errors": "^3.0.0",
+    "fawn": "^2.1.5",
+    "helmet": "^3.13.0",
+    "joi": "^13.4.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.5",
+    "morgan": "^1.9.0",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2",
+    "supertest": "^3.1.0"
+  }
+}

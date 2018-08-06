@@ -1,0 +1,4 @@
+{
+    "name": "Development app",
+    "db_host": "mongodb://localhost:27017/udemy"
+}
