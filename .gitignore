@@ -1,5 +1,5 @@
-/coverage/
-/node_modules/
-/.vscode/
-/logfile.log
-/uncaughtExceptions.log
+coverage/
+node_modules/
+.vscode/
+logfile.log
+uncaughtExceptions.log
